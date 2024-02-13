@@ -1,0 +1,142 @@
+
+:root{
+    --background-for-toolbar: #3d3d3d;
+    --background-color-dark:#4b4b4b;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.modal-cont{
+    display: none;
+    height: 50vh;
+    width: 45vw;
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    z-index: 5;
+ 
+
+}
+.main-ticket-cont{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.ticket-cont{
+    height:12rem ;
+    width: 14ren;
+    background-color: orangered;
+    position: relative;
+    
+    
+}
+.ticket-color{
+    height:1rem;
+  
+}
+.ticket-id{
+    height: 2rem;
+    background-color:yellow;
+}
+.toolbox-cont{
+    background-color: #4b4b4b;
+    height:5rem;
+    display: flex;
+    align-items: center;
+    
+}
+.lock{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.toolbox-cont>*{
+    margin-left: 4rem;
+}
+.toolbox-priority-cont{
+    display: flex;
+    height:3.5rem;
+    width:18rem;
+    background-color: var(--background-for-toolbar);
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.color{
+    height:1.5rem;
+    width:3rem;
+}
+.color:hover{
+    background-color: #485460;
+   
+}
+.lightpink{
+    background-color: lightpink;
+   
+}
+.lightgreen{
+    background-color: lightgreen;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.black{
+    background-color: black; 
+}
+
+
+.action-btn-cont{
+    height:3.5rem;
+    width: 18rm;
+    background-color: var(--background-for-toolbar);
+    
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    left: 300px;
+  
+}
+.action-btn-cont > *{
+    width:50%;
+    font-size: 2rem;
+    justify-content: space-evenly;
+  
+    color: white;
+    padding: 20px;
+}
+.action-btn-cont > *:hover{
+    background-color: green;
+}
+/* ticket creation  containor*/
+.textarea-cont{
+    resize: none;
+    border:none;
+    outline: none;
+    background-color: #dfe4ea;
+    height:100%;
+    width:75%;
+    font-size: 1.5rem;
+   
+}
+.priority-color-cont{
+    height: 100%;
+    width:25%;
+    background-color: var(--background-color-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.priority-color{
+    height: 3rem;
+    width:5rem;
+   
+}
